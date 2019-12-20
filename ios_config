@@ -1,0 +1,16 @@
+---
+- name: interfaces
+  hosts: Spine01
+  connection: local
+  gather_facts: yes
+
+  tasks:
+  - name: get interfaces
+    ios_command:
+     #type: show
+     commands: "show ip int bri | ex una"
+     host: "{{ ansible_host }}" 
+     username: admin
+     password: admin
+     #password will be asked while running this playbook
+    register: my_leafs_interfaces
