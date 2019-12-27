@@ -3,7 +3,7 @@
 <capabilities>
 <capability>urn:ietf:params:netconf:base:1.0</capability>
 <capability>urn:ietf:params:netconf:base:1.1</capability>
-<capability>http://cisco.com/ns/yang/ned/ios/asr1k?module=ned&amp;revision=2016-07-01</capability>
+<capability>http://cisco.com/ns/yang/ned/ios?module=ned&amp;revision=2016-07-01</capability>
 <capability>http://cisco.com/ns/yang/ned/ios/asr1k?module=ned-asr1k&amp;revision=2016-04-07</capability>
 </capability>
 </hello>
