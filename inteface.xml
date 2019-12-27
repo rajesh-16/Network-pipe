@@ -6,6 +6,8 @@
 <interface>
 <GigabitEthernet>
 <name>1</name>
+</GigabitEthernet>
+</interface>
 </native>
 </filter>
 </get>
